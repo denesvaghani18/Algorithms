@@ -1,6 +1,5 @@
 package com.problems;
 
-import java.util.Arrays;
 import java.util.HashMap;
 
 /**
@@ -20,7 +19,7 @@ import java.util.HashMap;
 public class TowSum {
 
     // O(n^2)
-    public int[] findPair_BruteForce(int[] nums, int target) {
+    public int[] findPair_BruteForce(Integer[] nums, int target) {
 
         // initialize result array
         int[] result = new int[2];
@@ -60,7 +59,7 @@ public class TowSum {
 
 
     // O(n)
-    public int[] findPair_HashMap(int[] nums, int target) {
+    public int[] findPair_HashMap(Integer[] nums, int target) {
 
         // initialize result array
         int[] result = new int[2];
