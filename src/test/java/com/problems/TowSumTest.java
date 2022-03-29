@@ -48,7 +48,7 @@ public class TowSumTest {
      *
      * @return
      */
-    public static List<GeneralTestCaseTemplate> testCases() {
+    private static List<GeneralTestCaseTemplate> testCases() {
         return Arrays.asList(
                 new GeneralTestCaseTemplate<Integer, Integer>().withArr1(new Integer[]{1, 4, 3, 2, 5})
                         .withTarget1(9)

@@ -42,10 +42,8 @@ class Medianof2SortedArraysTest {
 
     /**
      * test cases
-     *
-     * @return
      */
-    public static List<GeneralTestCaseTemplate> testCases() {
+    private static List<GeneralTestCaseTemplate> testCases() {
         return Arrays.asList(
                 new GeneralTestCaseTemplate<Integer, Double>().withArr1(new Integer[]{1, 3, 5})
                         .withArr2(new Integer[]{1, 3, 5})
